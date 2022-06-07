@@ -1,0 +1,29 @@
+#include "winuser.h"
+#include "winver.h"
+1 RT_MANIFEST "main.manifest"
+IDI_APPLICATION ICON "icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION             0,1,0,0
+PRODUCTVERSION          0,1,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+        VALUE "Comments",         "\0"
+        VALUE "CompanyName",      "fvollmer\0"
+        VALUE "FileDescription",  "RestrictPDF executable\0"
+        VALUE "FileVersion",      "0.1.0.0\0"
+        VALUE "InternalName",     "RestrictPDF\0"
+        VALUE "LegalCopyright",   "Copyright (C) RestrictPDF Authors\0"
+        VALUE "OriginalFilename", "RestrictPDF.exe\0"
+        VALUE "ProductName",      "RestrictPDF\0"
+        VALUE "ProductVersion",   "0.1.0.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409,1200
+    END
+END
