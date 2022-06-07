@@ -9,7 +9,7 @@ Please be aware that setting the owner password and all the restrictions are onl
 
 __RestrictPDF is currently in alpha state. Some features are hard coded.__
 
-<img src="screenshot.png" width="400">
+<img src="https://user-images.githubusercontent.com/16699443/172309140-0280f738-9157-42a0-9f67-e6d50b13d62d.png" width="400">
 
 Building
 ---------
