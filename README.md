@@ -5,9 +5,7 @@ RestrictPDF
 
 A simple gui tool to set or modifiy user password, owner password and restrictions like printing, editing, extracting, accessibility, assemble, form filling. It uses [libqpdf](https://github.com/qpdf/qpdf) for the pdf processing and win32 API for the gui (basically just a file chooser).
 
-Please be aware that setting the owner password and all the restrictions are only applied by compliant pdf readers. They are more or less just snake oil. RestrictPDF won't obey them and also allows to remove them.
-
-__RestrictPDF is currently in alpha state. Some features are hard coded.__
+Please be aware that all setings except the user password are only usefull if compliant pdf reader is used. The owner password and all other restrictions are more or less just snake oil. RestrictPDF won't obey them and also allows to remove them.
 
 <img src="https://user-images.githubusercontent.com/16699443/172309140-0280f738-9157-42a0-9f67-e6d50b13d62d.png" width="400">
 
