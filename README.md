@@ -7,7 +7,7 @@ A simple gui tool to set or modifiy user password, owner password and restrictio
 
 Please be aware that all setings except the user password are only usefull if compliant pdf reader is used. The owner password and all other restrictions are more or less just snake oil. RestrictPDF won't obey them and also allows to remove them.
 
-<img src="https://user-images.githubusercontent.com/16699443/172309140-0280f738-9157-42a0-9f67-e6d50b13d62d.png" width="400">
+<img src="https://user-images.githubusercontent.com/16699443/182047900-1608c4b9-62fb-48dc-8e33-09c07be9f965.png" width="400">
 
 Building
 ---------
